@@ -7,9 +7,6 @@
 </head>
 <body>
     <p>Hola</p>
-    <h1>Esto lo hago desde local me llammo Carlos</h1>
-    djkasdhjkdadasdh kdh dhjkahdjsdj
-    dasdjkahdjkasd
-    sdhjkasdhkjadyhjasd
+    <h1>Esto lo hago desde local me llamo Carlos</h1>
 </body>
 </html>
