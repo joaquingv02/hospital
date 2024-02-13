@@ -6,6 +6,6 @@
     <title>Hospital: La Campiña</title>
 </head>
 <body>
-    asdasdadswdasdasdadad
+    
 </body>
 </html>
