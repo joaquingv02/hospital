@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Hospital: La Campiña</title>
 </head>
 <body>
-    <p>Hola</p>
-    <h1>Esto lo hago desde local me llamo Carlos</h1>
-    asdasdasdasdadadasd
+    asdasdadsw
 </body>
 </html>
