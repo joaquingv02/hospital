@@ -26,28 +26,26 @@
 							<label for="nombre">Nombre</label>
 							<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Introduce el nombre" required>
 						</div>
+                        <div class="form-group">
+							<!-- Apellido -->
+							<label for="nombre">Apellido</label>
+							<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Introduce el nombre" required>
+						</div>
 						
-						<div class="form-group">
+                        <div class="form-group">
+							<!-- DNI -->
+							<label for="dni">DNI</label>
+							<input type="text" name="dni" id="dni" class="form-control" required>
+						</div>
+						
+                        <div class="form-group">
 							<!-- Teléfono -->
 							<label for="telefono">Teléfono</label>
 							<input type="number" name="telefono" id="telefono" class="form-control" placeholder="Introduce el teléfono" required>
 						</div>
 						
-						<div class="form-group">
-							<!-- Fecha nacimiento -->
-							<label for="fecha_nacimiento">Fecha de nacimiento</label>
-							<input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="form-control" required>
-						</div>
 						
-						<!-- Menú despegable -->
-						<div class="form-group">
-							<!-- Categoría -->
-							<label for="categoria">Categoría</label>
-							<select name="categoria" id="categoria" class="form-control" required>
-								<option value="AMATEUR">AMATEUR</option>
-								<option value="PROFESIONAL">PROFESIONAL</option>
-							</select>
-						</div>
+					
 
 						<div class="form-group">
 							<!-- Registrar -->
