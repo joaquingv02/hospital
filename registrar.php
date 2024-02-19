@@ -29,7 +29,7 @@
                         <div class="form-group">
 							<!-- Apellido -->
 							<label for="nombre">Apellido</label>
-							<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Introduce el nombre" required>
+							<input type="text" name="apellido" id="apellido" class="form-control" placeholder="Introduce el nombre" required>
 						</div>
 						
                         <div class="form-group">

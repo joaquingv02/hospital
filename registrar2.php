@@ -24,7 +24,7 @@
 	require 'conexion.php';
 
 	// Sentencia SQL, para registrar los datos
-	$sql = "INSERT INTO hospital (nombre,apellido,dni,telefono) VALUES ('$nombre','$apellido','$dni'$telefono')";
+	$sql = "INSERT INTO pacientes (nombre,apellido,dni,telefono) VALUES ('$nombre','$apellido','$dni','$telefono')";
 
 	// Ejecuto la sentencia y guardo el resultado
 	$resultado = $mysqli->query($sql);

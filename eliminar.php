@@ -12,9 +12,9 @@
 	</head>
 	<body>
 		<?php
-			require 'conexion.php';	
-		   	$id = $_GET['id'];	
-			$sql = "DELETE FROM clubdeportivo WHERE id=$id";
+			require 'conexion.php';		
+			$dni = $_GET['dni'];
+			$sql = "DELETE FROM pacientes WHERE dni='$dni'";
 			$resultado = $mysqli->query($sql);
 	
 			if($resultado > 0){

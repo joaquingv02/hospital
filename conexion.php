@@ -8,4 +8,4 @@ if ($mysqli->connect_errno) {
 // else{
 //         echo "Todo bien, amigo";
 //     }
-?>
+// ?>

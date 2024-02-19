@@ -3,10 +3,10 @@
 	require 'conexion.php';
 
 	// Aquí debemos poner el ID
-	$id = $_GET['id'];
+	$id = $_GET['id_paciente'];
 
 	//Preparo la sentencia SQL
-	$sql = "SELECT * FROM hospital WHERE id=$id";
+	$sql = "SELECT * FROM pacientes WHERE id_paciente=$id";
 
 	//Ejecuto la sentencia y guardo el resultado en una variable
 	$resultado = $mysqli->query($sql);

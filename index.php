@@ -2,7 +2,7 @@
 // Establecer conexión
 require 'conexion.php';
 // nombre de la tabla, de la BD
-$sql = "SELECT * FROM hospital";
+$sql = "SELECT * FROM pacientes";
 // ORDER BY nombre; (opcional)
 
 // Al ejecutar, el resultado se guarda en resultado 
@@ -78,9 +78,10 @@ $resultado = $mysqli->query($sql);
 					echo "<td>$fila[dni]</td>";
 					echo "<td>$fila[telefono]</td>";
 					
-				?>
-					<td><a href="editar.php?id=<?php echo $fila['id']; ?>" class="btn btn-warning">Editar</a></td>
-					<td><a href="eliminar.php?id=<?php echo $fila['id']; ?>" class="btn btn-danger">Eliminar</a></td>
+				 ?>
+				 	
+				 	<td><a href="editar.php?id_paciente=<?php echo $fila['id_paciente']; ?>" class="btn btn-warning">Editar</a></td>
+				 	<td><a href="eliminar.php?dni=<?php echo $fila['dni']; ?>" class="btn btn-danger">Eliminar</a></td>
 				<?php
 					echo "</tr>";
 				}
