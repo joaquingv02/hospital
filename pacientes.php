@@ -14,13 +14,15 @@ $resultado = $mysqli->query($sql);
 
 <head>
 	<!-- Required meta tags -->
-	<link href="css/pacientes.css" rel="stylesheet" />
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
+	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="pacientes.css" />
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -87,9 +89,16 @@ $resultado = $mysqli->query($sql);
 					echo "</tr>";
 				}
 				?>
-			</tbody>
+				
+		</div>
+		
+		</tbody>
+		
 		</table>
-
+		<div class="row">
+			<!-- Volver -->
+			<a href="index.html" class="btn btn-primary">Volver</a>
+		</div>
 	</div>
 
 </body>

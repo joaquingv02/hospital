@@ -1,0 +1,17 @@
+body {
+    background-image: url(./assets/img/hospital.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-color:aqua;
+    border: solid;
+}
+
+.btn, h1{
+    margin: 10px;
+}
