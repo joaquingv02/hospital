@@ -27,6 +27,7 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="pacientes.css">
 
 		<title>Hospital La Campiña</title>
 	</head>

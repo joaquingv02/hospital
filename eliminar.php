@@ -7,6 +7,7 @@
 		
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="pacientes.css">
 		
 		<title>Club Deportivo La Venta</title>
 	</head>
